@@ -43,3 +43,8 @@ class Solution {
        return prod-sum;
     }
 }
+
+
+Details:
+Runtime: 0 ms
+Memory Usage: 38.8 MB
