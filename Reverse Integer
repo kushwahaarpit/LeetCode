@@ -41,3 +41,8 @@ class Solution {
         return ans;
     }
 }
+
+Details :
+
+Runtime: 3 ms
+Memory Usage: 42 MB
