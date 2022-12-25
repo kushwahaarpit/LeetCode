@@ -30,23 +30,23 @@ Constraints:
 
 class Solution {
     public int subtractProductAndSum(int n) {
-        
-        int sum=0;
-        int prod=1;
+        int prod = 1;
+        int sum = 0;
         while(n!=0)
         {
-            int digit =n%10;
-            prod=prod*digit;
-            sum=sum+digit;
-            n=n/10;
+            int dig = n % 10;
+            prod = prod * dig;
+            sum = sum + dig;
+            n = n / 10;
         }
-       return prod-sum;
+        return prod-sum;
     }
 }
 
 
 Details:
 Runtime: 0 ms
-Memory Usage: 38.8 MB
+Memory Usage: 39.5 MB
 
 My [LeetCode](https://leetcode.com/arpitkushwaha/) Account
+My [LeetCode](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/solutions/2950221/java-runtime-0ms-and-memory-39-5mb/) Solution
